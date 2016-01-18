@@ -4,10 +4,10 @@ var total = 0;
 var temp = '';
 $("button").on('click', function() {
  	var val = $(this).text();
-
+    console.log(val);
   // Got a number, add to temp
   if (!isNaN(val) || val === '.') { 
-    temp += val;                     
+    temp += val;     
     $("#answer").val(temp.substring(0,10)); 
     
   // Got some symbol other than equals, add temp to our entries
