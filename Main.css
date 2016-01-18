@@ -1,27 +1,32 @@
 body {
   background: url("http://i410.photobucket.com/albums/pp187/Abdalrahman_Mokhles_Aslan/black-seamless-pattern-with-numbers_zpsiytro1ah.jpg")repeat center fixed;
-  
+}
+
+#body {
+  width: 100%;
+  min-width: 500px;
+  height: 100%;
+  min-height: 500px;
 }
 
 .container {
-  background-color:#a3a3c2;
+  overflow: auto;
+  background-color: #a3a3c2;
   background-attachment: fixed;
   background-position: center;
-  opacity:1;
+  opacity: 1;
   border: 10px solid light gray;
   border-style: outset;
   height: 500px;
   width: 400px;
-  position: fixed;
-  top: 10%;
+  top: 50%;
   left: 50%;
-  margin-top: -10px;
-  margin-left: -200px;
+  margin-top: 30px;
   text-align: center;
 }
 
 textarea {
-  font-size:24px;
+  font-size: 24px;
   text-align: right;
   overflow: auto;
   display: block;
@@ -36,7 +41,7 @@ textarea {
 }
 
 .mybuttons {
-  width:20%;
+  width: 20%;
   display: inline-block;
   padding: 15px 0px;
   font-size: 20px;
@@ -75,8 +80,6 @@ textarea {
   box-shadow: inset 2px 2px 5px;
 }
 
-
-
 #mybuttonac {
   padding: 15px 20px;
   width: 42%;
@@ -85,5 +88,4 @@ textarea {
 #mybuttonce {
   padding: 15px 20px;
   width: 42%;
-  
 }
