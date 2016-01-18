@@ -1,0 +1,89 @@
+body {
+  background: url("http://i410.photobucket.com/albums/pp187/Abdalrahman_Mokhles_Aslan/black-seamless-pattern-with-numbers_zpsiytro1ah.jpg")repeat center fixed;
+  
+}
+
+.container {
+  background-color:#a3a3c2;
+  background-attachment: fixed;
+  background-position: center;
+  opacity:1;
+  border: 10px solid light gray;
+  border-style: outset;
+  height: 500px;
+  width: 400px;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -200px;
+  text-align: center;
+}
+
+textarea {
+  font-size:24px;
+  text-align: right;
+  overflow: auto;
+  display: block;
+  margin-top: 10%;
+  margin_bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+  border-radius: 10px;
+  border: 3px solid #556677;
+  box-shadow: inset 2px 2px 5px;
+}
+
+.mybuttons {
+  width:20%;
+  display: inline-block;
+  padding: 15px 0px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #754785;
+  border: 2px solid gray;
+  border-radius: 15px;
+  opacity: 1;
+  margin: 2px;
+}
+
+.mybuttons:hover {
+  background: red;
+  /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#e699ff, #cc33ff, #9900cc);
+  /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#e699ff, #cc33ff, #9900cc);
+  /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#e699ff, #cc33ff, #9900cc);
+  /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#e699ff, #cc33ff, #9900cc);
+  /* Standard syntax */
+  color: #600080;
+  /*box-shadow: 1px 3px 3px 1px #9900cc;*/
+  opacity: 1;
+  border: 2px solid #df80ff;
+}
+
+.mybuttons:active {
+  background-color: #754785;
+  border-style: solid #df80ff;
+  box-shadow: inset 2px 2px 5px;
+}
+
+
+
+#mybuttonac {
+  padding: 15px 20px;
+  width: 42%;
+}
+
+#mybuttonce {
+  padding: 15px 20px;
+  width: 42%;
+  
+}
